@@ -79,3 +79,17 @@ button:active{
     color: white ;
     background-color: transparent;
 }
+@media only screen and (max-width: 375px) {
+    .card{
+        position: static;
+        width: 90vw;
+        height: 400px;
+        margin: 0 1%;
+        
+    }
+    button {
+        position: static;
+        margin-top: 20%;
+
+    }
+  }
